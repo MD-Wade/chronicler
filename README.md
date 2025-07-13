@@ -150,14 +150,15 @@ exec_logger.info("A new log file is created every run.")
 
 ## ⚙️ Configuration Options
 
-| Parameter         | Type   | Description                                                                  | Default |
-| ----------------- | ------ | ---------------------------------------------------------------------------- | ------- |
-| `level`           | str    | Minimum logging level (`DEBUG`, `INFO`, `WARNING`, `ERROR`, `CRITICAL`).     | `'INFO'` |
-| `show_caller`     | bool   | Show file and line number of log calls.                                     | `True` |
-| `log_file`        | str    | File to save logs to (optional).                                            | `None` |
-| `rotation_policy` | str    | Log rotation strategy (`daily`, `execution`).                               | `None` |
-| `max_files`       | int    | Maximum number of old log files to retain.                                  | `5` |
-| `use_colors`      | bool   | Enable colored console output. Automatically disabled if piping output to a file. | `True` |
+| Parameter         | Type  | Description                                                                  | Default  |
+| ----------------- | ----- | ---------------------------------------------------------------------------- | -------- |
+| `level`           | str   | Minimum logging level (`DEBUG`, `INFO`, `WARNING`, `ERROR`, `CRITICAL`).     | `'INFO'` |
+| `show_caller`     | bool  | Show file and line number of log calls.                                      | `True`   |
+| `log_file`        | str   | File to save logs to (optional).                                             | `None`   |
+| `rotation_policy` | str   | Log rotation strategy (`daily`, `execution`).                                | `None`   |
+| `max_files`       | int   | Maximum number of old log files to retain.                                   | `5`      |
+| `use_colors`      | bool  | Enable colored console output. Automatically disabled if piping output to a file. | `True`   |
+| `batch_interval`  | float | If set, enables batch writing at this interval in seconds.                   | `None`   |
 
 ---
 
@@ -177,7 +178,16 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-[Full MIT text retained here]
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
 ---
@@ -188,4 +198,4 @@ For questions, suggestions, or contributions, please open an issue or reach out 
 
 ---
 
-**Happy logging with Chronicler!**
+**Your project is a journey; make sure to chronicle it.**
