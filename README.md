@@ -6,7 +6,7 @@ Chronicler is a minimalistic yet powerful logging solution for Python projects. 
 
 ---
 
-## 🚀 Features
+## ☝️🤓 Features
 
 - **Five Standard Logging Levels**  
   DEBUG, INFO, WARNING, ERROR, and CRITICAL.
